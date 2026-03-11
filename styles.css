@@ -1,0 +1,120 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color:#e6e6e6;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  background-color: #a7c4a0;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1654366969755-55b7ae77c341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-size:28px
+}
+
+
+.cat-section {
+  border: 1px solid #dfe8e3;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cat-description {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-position: outside;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.nav-list {
+  width: 150px;
+  margin: 0 auto;
+  color: white;
+}
+
+.nav-list a {
+  color: white;
+}
+
+
+.cat-info ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid #e8b4b8;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #e6f0ec;
+}
+
+section p {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2f3e46;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.25);
+}
+
+h3 {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.cat-image img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-image: url("https://plus.unsplash.com/premium_photo-1663954865780-0165c050c50c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+  text-align: center;
+  color: #87f6ff;
+}
+
+footer a {
+  color: #87f6ff;
+}
+
+footer .nav-list a {
+  color: #87f6ff;
+}
+
+footer .nav-list {
+  width: 150px;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+footer a[href="#page-heading"] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
